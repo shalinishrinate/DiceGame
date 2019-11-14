@@ -1,0 +1,70 @@
+body{
+	background-image: url("background.png");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment:fixed;
+  	border: 10px solid black;
+  	padding: 35px;
+
+}
+
+
+.container{
+	width:320px;
+	height: 320px;
+	margin:auto;
+	margin-top: 100px;
+}
+
+.q{
+	width:100px;
+	height:100px;
+	float:left;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+	text-align:center;
+	font-family:sans-serif;
+    font-size:80px;
+
+}
+
+.q:hover{
+	background-color: azure;
+}
+
+#q0{
+	border-right:10px solid black;
+	border-left:10px solid black;
+	border-top:10px solid black;
+	border-bottom:10px solid black;
+}
+
+#q1{
+	border-right:10px solid black;
+	border-top:10px solid black;
+	border-bottom:10px solid black;
+	
+}
+
+table, th, td{
+	border:1px solid black;
+
+}
+
+td{
+	width:50px;
+	height:50px;
+	font-size:30px;
+	text-align: center;
+}
+button{
+	
+	color: white;
+	background: gray;
+	padding: 10px 24px;
+	font-size: 30px;
+	border-radius: 12px;
+	width: 20%;
+}

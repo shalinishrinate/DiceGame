@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<title>"Who is cooking Dinner tonight? - Dice Game"</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Shalini Singh" />
+	<meta name="keywords" content="dice game, play online, online game"/>
+	<meta name="description" content="Dice Game made with HTML css Java Script"/>
+	<link rel="stylesheet" href="game.css" >
+	<script src="diceGame.js"></script>
+
+</HEAD>
+<Body>
+	<table style="width:100%">
+		<tr>
+			<td>
+				<table style="width:100%">
+					<thead>
+						<tr>Player 1</tr> 
+					</thead>
+						<tr>
+							<td id='first1'></td> 
+							<td id='second1'></td>
+							<td id='third1'></td>
+							<td id='fourth1'></td>
+							<td id='fifth1'></td>
+							<td id='sixth1'></td>
+						</tr>
+						<tr>
+							<td> Current Round : </td>
+							<td id="currentPlayer1Round"> </td>
+						</tr>
+						<tr>
+							<td> Sum of All Rounds : </td>
+							<td id="sum1"> </td>
+						</tr>
+				</table>
+			</td>
+			<td>
+				<table style="width:100%">
+					<thead>
+						<tr>Player 2</tr>
+					</thead>
+						<tr>
+							<td id='first2'></td>
+							<td id='second2'></td>
+							<td id='third2'></td>
+							<td id='fourth2'></td>
+							<td id='fifth2'></td>
+							<td id='sixth2'></td>
+						</tr>
+						<tr>
+							<td> Current Round : </td>
+							<td id="currentPlayer2Round"> </td>
+						</tr>
+						<tr>
+							<td> Sum of All Rounds : </td>
+							<td id="sum2"> </td>
+						</tr>
+				</table>
+			</td>
+		</tr>
+		<tr><td><div id='result'></div></td></tr>
+	</table>
+	
+		
+	</div> 
+	<button id="player1Button" onclick="generateNumbersForPlayer1()">Player 1</button>
+	<button id="player2Button" onclick="generateNumbersForPlayer2()">Player 2</button> 
+	
+	</Body>
+</HTML>
